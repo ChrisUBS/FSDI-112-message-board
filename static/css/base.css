@@ -1,0 +1,46 @@
+/* General */
+img {
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: green;
+    border-radius: 15px;
+}
+
+h2 {
+    color: white;
+    padding: 10px;
+    background-color: green;
+    border-radius: 15px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: green !important;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.nav-item a{
+    color: white;
+}
+
+/* Utils */
+.content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
