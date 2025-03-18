@@ -14,18 +14,24 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid d-flex justify-content-between">
-            <a class="navbar-brand" href="#">Message Board 🎮</a>
+            <a class="navbar-brand" href="{% url 'home' %}">Message Board 🎮</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto gap-3">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary mx-2" href="{% url 'home' %}">Home 🏠</a>
+                        <a class="nav-link btn btn-primary" href="{% url 'home' %}">Home 🏠</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary mx-2" href="{% url 'about' %}">About ℹ️</a>
+                        <a class="nav-link btn btn-primary" href="{% url 'about' %}">About ℹ️</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="{% url 'list' %}">Posts 📫</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="{% url 'new' %}">New Post ✉️</a>
                     </li>
                 </ul>
             </div>

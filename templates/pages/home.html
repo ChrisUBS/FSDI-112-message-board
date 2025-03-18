@@ -3,23 +3,42 @@
 {% block title %}Home{% endblock title %}
 
 {% block content %}
-<h1 class="text-center mt-3">Welcome to Message Board 🎮!</h1>
-<p>Message Board is a simple yet powerful platform designed for open discussions, idea sharing, and community engagement. Whether you're looking to start conversations, ask questions, or share insights, this platform provides a space where users can freely express their thoughts and connect with others.</p>
-<div>
-    <h2 class="text-center mt-3">How It Works</h2>
-    <ul>
-        <li>
-            <p><strong>Create an Account</strong> – Sign up and join the discussion.</p>
-        </li>
-        <li>
-            <p><strong>Post & Share</strong> – Start a new discussion or reply to existing ones.</p>
-        </li>
-        <li>
-            <p><strong>Engage with the Community</strong> – Like, comment, and interact with other users’ posts.</p>
-        </li>
-        <li>
-            <p><strong>Stay Updated</strong> – Follow topics and discussions that interest you.</p>
-        </li>
-    </ul>
+<div class="container text-center mt-3">
+    <h1 class="display-3 fw-bold text-warning">Welcome to Message Board 🎮!</h1>
+    <p class="lead text-light">Join a thriving community where you can discuss, share, and engage with like-minded
+        gamers.</p>
+
+    <div class="mt-4 p-5 bg-dark text-light rounded shadow-lg">
+        <h2 class="text-warning mb-4">How It Works</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card bg-secondary text-light border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-pencil-square display-4 text-warning"></i>
+                        <h5 class="mt-3">Post & Share</h5>
+                        <p class="small">Start new discussions or contribute to existing ones. No account needed!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card bg-secondary text-light border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-chat-dots-fill display-4 text-warning"></i>
+                        <h5 class="mt-3">Engage with the Community</h5>
+                        <p class="small">Like, comment, and interact with others.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card bg-secondary text-light border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-bell-fill display-4 text-warning"></i>
+                        <h5 class="mt-3">Stay Updated</h5>
+                        <p class="small">Follow topics that interest you and never miss a discussion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock content %}
